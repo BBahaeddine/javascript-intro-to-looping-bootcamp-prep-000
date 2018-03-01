@@ -1,17 +1,17 @@
 function forLoop(array) {
   for(let i = 0; i < 25; i++) {
     if(i === 1) {
-      console.log('Hello');
-      // array.push("I am 1 strange loop.");
+      // console.log('Hello');
+      array.push("I am 1 strange loop.");
       // array[i] = "I am 1 strange loop.";
     } else {
-      console.log('good bye');
-      // array.push(`I am ${i} strange loops.`);
+      // console.log('good bye');
+      array.push(`I am ${i} strange loops.`);
       // array[i] = `I am ${i} strange loops.`;
     }
     
-    return array;
   }
+    return array;
 }
 
 function whileLoop(number) {
